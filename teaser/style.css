@@ -15,12 +15,12 @@ body {
 .logo {
     color: #ccc;
     height: 150px;
-    margin: 40px 0px 55px 0px;
+    margin: 10% 0px 15% 0px;
   fill: currentColor;
 }
 
 .container {
-    padding-top: 80px;
+    padding-top: 15%;
     max-width: 400px;
 }
 .tagline {
