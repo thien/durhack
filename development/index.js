@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 8080
 
 // if this is on, redirect the user to the teaser page.
 // they shouldn't be able to see anything else.
