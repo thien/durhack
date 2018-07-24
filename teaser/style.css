@@ -7,7 +7,7 @@
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #fff;
-    background-color: #c42749;
+    background-color: #3c3c3c;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -31,12 +31,11 @@ body {
     padding: 40px 0px 0px 0px;
     height: 20px;
     font-size: 90%;
-    color: #fcc7c7;
+    color: #d9bce8;
 }
 
 #heart {
     padding: 0px 0px;
-    
-    height: 0.8em; 
+    height: 0.8em;
     width: 0.8em;
 }
