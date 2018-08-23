@@ -82,7 +82,7 @@ em {
 }
 
 .fp-section {
-    padding: 4em 0;
+    padding: 2.5em 0;
 }
 
 .coloured_container:nth-child(even){
@@ -140,6 +140,7 @@ h2 {
 }
 
 .legal_ting {
+    margin-top: 5em;
     font-weight: 200;
     font-size: 70%;
     color: #8d6f85;
