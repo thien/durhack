@@ -31,7 +31,8 @@ body {
 }
 
 .splash_logo {
-    margin-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 2em;
 }
 
 .headline {
@@ -56,6 +57,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .splash_container {
+    /* height: 90vh; */
     margin-top: 2em;
     margin-bottom: 3em;
 }
@@ -84,14 +86,14 @@ em {
 .fp-section {
     padding: 2.5em 0;
 }
-
+/* 
 .coloured_container:nth-child(even){
     background-color: #3d253721;
 }
 
 .coloured_container:nth-child(odd){
     background-color: #4c275321;
-}
+} */
 
 a {
     color: rgb(225, 115, 235);
@@ -152,5 +154,11 @@ h2 {
     padding: 10px;
 }
 
-.copyright{
+
+@media only screen and (min-width: 481px) {
+    #splash-head {
+        position: fixed;
+        right: 9%;
+        top: 20vh;
+    }
 }
