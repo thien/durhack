@@ -1,0 +1,155 @@
+/*
+68 74 74 70 3a 2f 2f 69 2e 69 6d 67 75 72 2e 63 6f 6d 2f 79 53 66 44 75 37 63 2e 6a 70 67 
+*/
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500');
+
+
+@font-face {
+    font-family: 'DIN';
+    src: url('/css/fonts/din1451alt.ttf'); /* IE9 Compat Modes */
+    src: url('/css/fonts/din1451alt.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/css/fonts/din1451alt.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: regular;
+  }
+
+
+  @font-face {
+    font-family: 'DIN Bold';
+    src: url('/css/fonts/din1451alt_b.ttf'); /* IE9 Compat Modes */
+    src: url('/css/fonts/din1451alt_b.woff') format('woff'), /* Pretty Modern Browsers */
+         url('/css/fonts/din1451alt_b.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: regular;
+  }
+
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #f8e8ff;
+    background-color: #1a151b; 
+    font-weight: 400;
+}
+
+.splash_logo {
+    margin-bottom: 0px;
+}
+
+.headline {
+    color: #c5e3b3;
+}
+.headline_lower {
+    font-size: 100%;
+    color: #fae1ff;
+}
+
+.front-register {
+    margin-top: 20px;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'DIN', 'IBM Plex Sans';
+}
+
+.splash_container {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+em {
+    background-color: #33081ec0;
+    color: rgb(217, 195, 240);
+    font-size: 98%;
+    padding: 3px 5px;
+    font-family: monospace;
+    font-style: normal;
+}
+
+.btn.btn-primary {
+    background: rgb(115, 26, 148);
+    border-color: #AE95C8;
+    color: #fff;
+}
+
+.btn.btn-primary:hover {
+    background: #c5e3b3;
+    border-color: #AE95C8;
+    color: rgb(54, 48, 48);
+}
+
+.fp-section {
+    padding: 4em 0;
+}
+
+.coloured_container:nth-child(even){
+    background-color: #3d253721;
+}
+
+.coloured_container:nth-child(odd){
+    background-color: #4c275321;
+}
+
+a {
+    color: rgb(225, 115, 235);
+}
+
+a:hover {
+    color: rgb(249, 184, 255);
+}
+
+h2 {
+    color: #92ced4;
+}
+
+.xoxo {
+    color: rgb(235, 146, 154);
+}
+
+#heart {
+    padding: 0px 0px;
+    height: 0.8em; 
+    width: 0.8em;
+}
+
+.request_form .input-group {
+    margin: 20px 0px;
+}
+
+.bullet-time {
+    background: #332b36b0;
+    padding: 3px;
+    margin: 0px 5px 0px 0px;
+    /* font-family: monospace; */
+    /* font-size: 95%; */
+    font-style: unset;
+}
+
+.request_form .form-input {
+    background: #413644b2;
+    color: #c5e3b3;
+}
+
+.particles-js canvas, .particles-js-canvas-el{
+    display: inline-block;
+    position: fixed;
+    z-index: -999;
+}
+
+.legal_ting {
+    font-weight: 200;
+    font-size: 70%;
+    color: #8d6f85;
+}
+
+.compsoc_logo {
+    z-index: -9999;
+    width: 80px;
+    padding: 10px;
+}
+
+.copyright{
+}
