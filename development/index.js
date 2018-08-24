@@ -11,7 +11,7 @@ if (showTeaser) {
   // show the teaser page until ready.
   app.use("/", express.static(__dirname + '/public/teaser'));
 } else if (showSplash) {
-  // show the teaser page until ready.
+  // show the splash page until ready.
   app.use("/", express.static(__dirname + '/public/preview'));
 } else {
   // display our WIP website.
@@ -19,6 +19,11 @@ if (showTeaser) {
     response.send('Hello from Express!')
   })
 }
+
+//The 404 Route (ALWAYS Keep this as the last route)
+app.get('*', (request, response) => {
+  response.status(404).sendFile(__dirname + '/public/preview/404.html');
+})
 
 app.listen(port, (err) => {
   if (err) {
