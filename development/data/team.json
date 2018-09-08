@@ -1,0 +1,71 @@
+[{
+        "name": "Robbie Jakob-Whitworth",
+        "role": "Lead Organiser",
+        "email": "robbie.jw@durhack.com",
+        "mugshot" : "img/team/robbie-jakob-whitworth.jpg",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Karl Southern",
+        "role": "Head of Logistics",
+        "email": "karl.s@durhack.com",
+        "mugshot" : "img/team/karl-southern.jpg",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Mitchel Starkie",
+        "role": "Head of Hacker Experience",
+        "email": "mitchel.s@durhack.com",
+        "mugshot" : "img/team/mitchel-starkie.jpg",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Jessica Ng",
+        "role": "Treasurer",
+        "email": "jessica.n@durhack.com",
+        "mugshot" : "img/team/placeholder.png",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Kat Strachan",
+        "role": "Design and Marketing",
+        "email": "kat.s@durhack.com",
+        "mugshot" : "img/team/kat-strachan.png",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Thien Nguyen",
+        "role": "Interweb Engineer",
+        "email": "hello@durhack.com",
+        "mugshot" : "img/team/placeholder.png",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Justin Knight",
+        "role": "Sponsorship Assistant",
+        "email": "justin.k@durhack.com",
+        "mugshot" : "img/team/placeholder.png",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Alex Krajewski",
+        "role": "Catering Logistics Assistant",
+        "email": "alex.k@durhack.com",
+        "mugshot" : "img/team/alex-krajewski.png",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Christos Christou-Mavropoulos",
+        "role": "General Logistics Assistant",
+        "email": "christos.cm@durhack.com",
+        "mugshot" : "img/team/christos-christou-mavropoulos.jpg",
+        "fact" : "Eats babies for breakfast."
+    },
+    {
+        "name": "Dmytro Drobisher",
+        "role": "General Logistics Assistant",
+        "email": "dmytro.d@durhack.com",
+        "mugshot" : "img/team/placeholder.png",
+        "fact" : "Eats babies for breakfast."
+    }
+]
