@@ -1,5 +1,19 @@
 {
     "sponsors": {
+        "gold" : [
+            {
+                "name": "TPP",
+                "image": "img/sponsors/tpp.png",
+                "url" : "#"
+            }
+        ],
+        "silver" : [
+            {
+                "name": "Bede Gaming",
+                "image": "img/sponsors/bede.png",
+                "url" : "#"
+            }
+        ],
         "partners": [
         {
             "name": "Durham Computing Society",
@@ -9,7 +23,7 @@
         {
             "name": "Durham Student Union",
             "image": "img/sponsors/dsu.png",
-            "url" : "https://durhamsu.com"
+            "url" : "https://www.durhamsu.com"
         }
     ]
     }
