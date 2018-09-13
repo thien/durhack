@@ -21,6 +21,11 @@
             "url" : "https://www.compsoc.tech"
         },
         {
+            "name": "MLH",
+            "image": "img/sponsors/mlh.png",
+            "url" : "https://mlh.io"
+        },
+        {
             "name": "Durham Student Union",
             "image": "img/sponsors/dsu.png",
             "url" : "https://www.durhamsu.com"
