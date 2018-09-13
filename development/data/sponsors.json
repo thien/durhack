@@ -4,14 +4,14 @@
             {
                 "name": "TPP",
                 "image": "img/sponsors/tpp.png",
-                "url" : "#"
+                "url" : "https://www.tpp-uk.com"
             }
         ],
         "silver" : [
             {
                 "name": "Bede Gaming",
                 "image": "img/sponsors/bede.png",
-                "url" : "#"
+                "url" : "https://bedegaming.com"
             }
         ],
         "partners": [
