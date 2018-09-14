@@ -1,40 +1,40 @@
 [{
-        "name": "Robbie Jakob-Whitworth",
+        "name": "Robbie",
         "role": "Lead Organiser",
         "email": "robbie.jw@durhack.com",
-        "mugshot" : "img/team/robbie-jakob-whitworth.jpg",
+        "mugshot" : "img/team/rob.jpg",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Karl Southern",
+        "name": "Karl",
         "role": "Head of Logistics",
         "email": "karl.s@durhack.com",
-        "mugshot" : "img/team/karl-southern.jpg",
+        "mugshot" : "img/team/karl.jpg",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Mitchel Starkie",
+        "name": "Mitchel",
         "role": "Head of Hacker Experience",
         "email": "mitchel.s@durhack.com",
-        "mugshot" : "img/team/mitchel-starkie.jpg",
+        "mugshot" : "img/team/mitchel.jpg",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Jessica Ng",
+        "name": "Jessica",
         "role": "Treasurer",
         "email": "jessica.n@durhack.com",
-        "mugshot" : "img/team/jess-n.png",
+        "mugshot" : "img/team/jess.png",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Kat Strachan",
+        "name": "Kat",
         "role": "Design and Marketing",
         "email": "kat.s@durhack.com",
-        "mugshot" : "img/team/kat-strachan.png",
+        "mugshot" : "img/team/kat.png",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Thien Nguyen",
+        "name": "Thien",
         "role": "Web Engineer",
         "email": "hello@durhack.com",
         "mugshot" : "img/team/thien.jpg",
@@ -44,25 +44,25 @@
         "name": "Justin Knight",
         "role": "Sponsorship Assistant",
         "email": "justin.k@durhack.com",
-        "mugshot" : "img/team/justin-knight.png",
+        "mugshot" : "img/team/justin.png",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Alex Krajewski",
+        "name": "Alex",
         "role": "Catering Logistics Assistant",
         "email": "alex.k@durhack.com",
-        "mugshot" : "img/team/alex-krajewski.png",
+        "mugshot" : "img/team/alex.png",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Christos Christou-Mavropoulos",
+        "name": "Christos",
         "role": "General Logistics Assistant",
         "email": "christos.cm@durhack.com",
-        "mugshot" : "img/team/christos-christou-mavropoulos.jpg",
+        "mugshot" : "img/team/christos.jpg",
         "fact" : "Eats babies for breakfast."
     },
     {
-        "name": "Dmytro Drobisher",
+        "name": "Dmytro",
         "role": "General Logistics Assistant",
         "email": "dmytro.d@durhack.com",
         "mugshot" : "img/team/dmytro.png",
