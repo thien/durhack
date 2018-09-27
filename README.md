@@ -1,8 +1,26 @@
-# DurHack
-Website assets for DurHack 2018. Feel free to poach the goods for your own hackathon. (Please leave a fork or a link back if you do!)
+# durhack
 
-DurHack 2018 is live at [durhack.com](https://durhack.com).
+![hello world](screenshot.png)
 
-<hr>
+These are website assets for the DurHack hackathon (the third one as of writeup on this readme).
 
-<sup><sub>DurHack is an event hosted by Durham University Computing Society ([compsoc.tech](https://compsoc.tech)), which is a student society affiliated with Durham Students' Union ([durhamsu.com](https://www.durhamsu.com)). Durham Students' Union is registered in England as a company limited by guarantee (07689815) and a charity (1145400), with VAT number 119733690 and registered office Dunelm House, New Elvet, Durham DH1 3AN.</sub></sup>
+## installation
+
+Hopefully, it should be as trivial as cloning the repo, `cd`ing into the repository, and slapping the following commands into the terminal (assuming `node.js` is installed):
+
+```
+npm install
+node index.js
+```
+
+## deployment
+
+Presently, we've used a Digital Ocean box which is covered through the Github Student Pack. [`pm2`](http://pm2.keymetrics.io) is used to run the service as a daemon, with `nginx` acting as a reverse proxy. SSL certificates were created using Let's Encrypt (A good tutorial on how to do this yourself can be found [here](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-16-04).) Optionally, there are lots of open source scripts that will act as a git webhook, allowing changes to be deployed as soon as changes are pushed into your repo (similar to how Heroku works), but I'm not sensible enough to allow that to be deployed.
+
+## blah blah blah ok w/e but can I use this for my own hackathon website?
+
+Sure, but obviously don't use our logo and colourscheme or whatever. That'll be silly.
+
+## is this a ruse?
+
+No.

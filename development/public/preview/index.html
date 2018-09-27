@@ -1,0 +1,248 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#dab8e9">
+    <meta name="msapplication-TileColor" content="#434144">
+    <meta name="theme-color" content="#434144">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/spectre.min.css">
+    <link rel="stylesheet" href="css/spectre-exp.min.css">
+    <link rel="stylesheet" href="css/spectre-icons.min.css">
+    <link rel="stylesheet" href="css/auto-complete.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DurHack 2018</title>
+
+    <meta property="og:title" content="DurHack 2018">
+    <meta property="og:description" content="The official 3rd Generation Hackathon at Durham.">
+    <meta property="og:image" content="img/meta/logo.png">
+    <meta property="og:url" content="https://durhack.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script>
+        // load data prior to rendering the page.
+        var faqJSONs;
+        fetch("/faq")
+        .then(response => response.json())
+        .then(json => faqJSONs = json);
+    </script>
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="container splash_container">
+        <div class="columns">
+            <div class="column col-7 col-xs-12">
+            </div>
+            <div id="splash-head" class="column col-5 col-xs-12 header">
+                <img src="img/logo.svg" class="splash_logo">
+                <h5 class="headline">17<sup>th</sup>-18<sup>th</sup> November 2018</h5>
+                <h5 class="headline_lower">Calman Learning Centre,<br>Durham University</h5>
+                <a href="https://ducompsoc.typeform.com/to/DbvYDm">
+                    <button class="btn btn-primary input-group-btn front-register">Register Now</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form">
+                    <h2 class="fp-header">We're Back</h2>
+                    <p>Join us from <b>17<sup>th</sup>–18<sup>th</sup> November 2018</b> at the <b>Calman Learning
+                            Centre, Durham University</b>
+                        for the third edition of DurHack. This year, <strong>150</strong> hackers from Durham and around the world will be
+                        pushing
+                        the boundaries of technology to new limits.</p>
+                    <p>
+                        Last year, we brought students together from numerous universities, to create projects like a
+                        <a href="https://devpost.com/software/alexa-the-waiter" target="_blank">waiter Alexa</a> skill
+                        for ordering
+                        food at a restaurant, a <a href="https://devpost.com/software/durafficpark" target="_blank">traffic
+                            simulation </a> using Java and node.js,
+                        and a Google Maps heatmap showing the <a href="https://devpost.com/software/get-me-home" target="_blank">safest
+                            routes home</a> after a night out.
+                    </p>
+                    <p>
+                        Make sure to check out DurHack 2017’s <a href="http://photos17.durhack.com" target="_blank">photos</a>
+                        and <a href="https://durhack2017.devpost.com/submissions" target="_blank">submissions</a>!
+                    </p>
+                    <p>
+
+                        For general enquiries, email <a href="mailto:hello@durhack.com">hello@durhack.com</a>.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form">
+                    <h2 class="fp-header">Where is it?</h2>
+                    <p>DurHack 2018 takes place in the Calman Learning Centre and the Department of Earth Sciences at
+                        Durham University.</p>
+                    <div id="mapContainer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <h2 class="fp-header">Timeline</h2>
+            <div class="column col-5 col-md-6 col-md-7 col-xs-12">
+                <div class="timeline">
+                    <div class="timeline-item" id="timeline_17th">
+                        <div class="timeline-left"><a class="timeline-icon tooltip" href="#timeline-example-1"
+                                data-tooltip="17th November 2018"></a></div>
+                        <div class="timeline-content">
+                            <div class="tile">
+                                <div class="tile-content">
+                                    <p class="tile-subtitle">17th November 2018</p>
+                                    <p class="tile-title"><em class="bullet-time">09:30</em> Registration</p>
+                                    <p class="tile-title"><em class="bullet-time">11:00</em> End of registration,
+                                        Opening talks begin</p>
+                                    <p class="tile-title"><em class="bullet-time">12:00</em> Hacking begins</p>
+                                    <p class="tile-title"><em class="bullet-time">13:15</em> Lunch</p>
+                                    <p class="tile-title"><em class="bullet-time">14:30</em> Optional workshops
+                                        throughout the afternoon</p>
+                                    <p class="tile-title"><em class="bullet-time">17:45</em> Supper</p>
+                                    <p class="tile-title"><em class="bullet-time">22:30</em> Relaxation room opened</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="timeline_18th">
+                        <div class="timeline-left"><a class="timeline-icon tooltip" href="#timeline-example-1"
+                                data-tooltip="18th November 2018"></a></div>
+                        <div class="timeline-content">
+                            <div class="tile">
+                                <div class="tile-content">
+                                    <p class="tile-subtitle">18th November 2018</p>
+                                    <p class="tile-title"><em class="bullet-time">00:00</em>Midnight pizza 🍕</p>
+                                    <p class="tile-title"><em class="bullet-time">08:00</em>Breakfast</p>
+                                    <p class="tile-title"><em class="bullet-time">12:00</em>Hacking ends, project
+                                        submission deadline, lunch</p>
+                                    <p class="tile-title"><em class="bullet-time">13:00</em>Science fair</p>
+                                    <p class="tile-title"><em class="bullet-time">14:30</em>Finalist presentations</p>
+                                    <p class="tile-title"><em class="bullet-time">16:00</em>Awards ceremony and closing
+                                        talks</p>
+                                    <p class="tile-title"><em class="bullet-time">16:30</em>End of event</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 sponsors">
+                    <h2 class="fp-header">FAQ</h2>
+                    <div class="form-group">
+                        <input class="form-input" type="text" id="faqInput" placeholder="Type in your question here">
+                    </div>
+                    <div class="form-group">
+                        <div id="faqResponse" style="display:none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container coloured_container">
+
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 sponsors">
+                    <h2 class="fp-header">Sponsors</h2>
+
+                    <div class="sponsor_container" id="sponsor-partner"></div>
+                    <div class="sponsor_container" id="sponsor-base"></div>
+
+                    <p> <b>Interested in sponsoring DurHack?</b> Send us an email at <a href="mailto:sponsor@durhack.com">sponsor@durhack.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+
+        <div class="fp-section">
+            <div class="columns">
+
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form">
+                    <div class="xoxo">
+                        With <img id="heart" src="img/helpers/heart.svg"> from the team.
+                    </div>
+                    <div id="teambox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add mlh logo. -->
+    <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000"
+        href="https://mlh.io/seasons/eu-2019/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2019-season&utm_content=white"
+        target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg"
+            alt="Major League Hacking 2019 Hackathon Season" style="width:100%"></a>
+
+    <div class="container legal_ting">
+
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12">
+                    <p>DurHack is an event hosted by Durham University Computing Society (<a href="https://compsoc.tech"
+                            target="_blank">compsoc.tech</a>),
+                        which is a student society affiliated with Durham Students' Union (<a href="https://durhamsu.com"
+                            target="_blank">durhamsu.com</a>).
+                        Durham Students' Union is registered in England as a company limited by guarantee (07689815)
+                        and a charity
+                        (1145400), with VAT number 119733690 and registered office Dunelm House, New Elvet, Durham DH1
+                        3AN.</p>
+
+
+                    <p class="copyright">
+                        This work is <a href="https://github.com/thien/durhack">open source</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="js/particles.min.js"></script>
+<script src="js/auto-complete.js"></script>
+<script src="js/core.js"></script>
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyD70GNb2FLOz3cVO-LpF0Jjk8STZgGZKX0"></script>
+
+<script>
+    function init_map() {
+        var myOptions = {
+            zoom: 16,
+            center: new google.maps.LatLng(54.7674341, -1.5718217),
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        map = new google.maps.Map(document.getElementById("mapContainer"), myOptions);
+        marker = new google.maps.Marker({
+            map: map,
+            position: new google.maps.LatLng(54.7674341, -1.5718217)
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+
+</html>
