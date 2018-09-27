@@ -1,3 +1,5 @@
 development/node_modules/*
 .DS_Store
 development/public/preview/img/sponsors/test/*
+.idea/
+*.html___jb_old___
