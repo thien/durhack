@@ -317,3 +317,7 @@ textarea::-webkit-input-placeholder {
     max-height: 90%;
     max-width: 90%;
 }
+
+.timeline .tile-subtitle {
+    font-weight: bold;
+}
