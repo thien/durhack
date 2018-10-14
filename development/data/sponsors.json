@@ -43,6 +43,11 @@
                 "url" : "https://www.bloomberg.com/careers/"
             },
             {
+                "name": "Sticker Mule",
+                "image": "img/sponsors/sticker-mule.svg",
+                "url" : "http://hackp.ac/mlh-stickermule-hackathons"
+            },
+            {
                 "name": "Durham Student Union",
                 "image": "img/sponsors/dsu.png",
                 "url" : "https://www.durhamsu.com"
