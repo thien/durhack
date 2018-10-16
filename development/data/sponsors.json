@@ -17,6 +17,11 @@
                 "name": "Waterstons",
                 "image": "img/sponsors/waterstons.svg",
                 "url" : "https://www.waterstons.com/careers"
+            },
+            {
+                "name": "GitHub",
+                "image": "img/sponsors/github.png",
+                "url": "https://education.github.com/"
             }
         ],
         "silver" : [
