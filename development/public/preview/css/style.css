@@ -47,7 +47,11 @@ body {
 }
 
 .front-register {
-    margin-top: 20px;
+    margin: 20px 0;
+}
+
+.waiting-list-text {
+    max-width:50%;
 }
 
 .container {
