@@ -43,14 +43,19 @@
                 "url" : "https://mlh.io"
             },
             {
-                "name": "Bloomberg",
-                "image": "img/sponsors/bloomberg.svg",
-                "url" : "https://www.bloomberg.com/careers/"
+                "name": "Durham University",
+                "image": "img/sponsors/du.svg",
+                "url" : "https://www.dur.ac.uk/computer.science/"
             },
             {
                 "name": "Sticker Mule",
                 "image": "img/sponsors/sticker-mule.svg",
                 "url" : "http://hackp.ac/mlh-stickermule-hackathons"
+            },
+            {
+                "name": "Bloomberg",
+                "image": "img/sponsors/bloomberg.svg",
+                "url" : "https://www.bloomberg.com/careers/"
             },
             {
                 "name": "Durham Student Union",
