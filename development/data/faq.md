@@ -15,8 +15,10 @@ If you've thought at all about attending DurHack, yes! DurHack is welcoming to p
 We'll provide you with meals, snacks and drinks throughout the weekend, leaving you to concentrate on your projects. If you have special dietary requirements, please let us know when you register.
 ## What should I bring?
 All attendees will need to show valid student ID (other photo ID is acceptable for graduates) at registration. You'll also need a laptop and a charger, and you might want to bring a sleeping bag and toiletries.
+## Will you be offering travel reimbursements?
+Thanks to our sponsors, we have a limited budget for travel reimbursements for students coming from outside Durham. We are able to reimburse up to **£50/head** – please keep your receipt and we will provide more information closer to the event on how to claim reimbursement. 
 ## How big can teams be?
-Teams of up to four are eligible for prizes. You can also hack solo if you prefer!
+Teams of up to **four** are eligible for prizes. You can also hack solo if you prefer!
 ## What if I don't have a team?
 Don't worry! Part of the fun of a hackathon is meeting new people. We'll have a team-building event before hacking begins for those who want to meet and form new teams.
 ## Can I take a break overnight?
