@@ -16,7 +16,9 @@ We'll provide you with meals, snacks and drinks throughout the weekend, leaving 
 ## What should I bring?
 All attendees will need to show valid student ID (other photo ID is acceptable for graduates) at registration. You'll also need a laptop and a charger, and you might want to bring a sleeping bag and toiletries.
 ## Will you be offering travel reimbursements?
-Thanks to our sponsors, we have a limited budget for travel reimbursements for students coming from outside Durham. We are able to reimburse up to **£50/head** – please keep your receipt and we will provide more information closer to the event on how to claim reimbursement. 
+Thanks to our sponsors, we have a limited budget for travel reimbursements for students coming from outside Durham. We are able to reimburse up to **£50/head** – please keep your receipt and we will provide more information closer to the event on how to claim reimbursement.
+## Can I get a visa invitation letter?
+Yes! While we can't provide specific information about the visa application process for the UK, drop us an email at [hello@durhack.com](mailto:hello@durhack.com) and we can produce a visa invitation letter for you. 
 ## How big can teams be?
 Teams of up to **four** are eligible for prizes. You can also hack solo if you prefer!
 ## What if I don't have a team?
