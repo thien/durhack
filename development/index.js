@@ -69,6 +69,10 @@ app.get('/sponsors', (request, response) => {
   response.send(sponsors)
 })
 
+app.get('/codeofconduct', (request, response) => {
+  response.redirect('https://static.mlh.io/docs/mlh-code-of-conduct.pdf');
+})
+
 
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (request, response) => {
