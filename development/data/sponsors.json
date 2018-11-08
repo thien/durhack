@@ -48,6 +48,11 @@
                 "url" : "https://www.dur.ac.uk/computer.science/"
             },
             {
+                "name": "Entrepreneurs Durham",
+                "image": "img/sponsors/ed.svg",
+                "url" : "http://www.entrepreneursdurham.co.uk"
+            },
+            {
                 "name": "Sticker Mule",
                 "image": "img/sponsors/sticker-mule.svg",
                 "url" : "http://hackp.ac/mlh-stickermule-hackathons"
