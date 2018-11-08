@@ -5,7 +5,7 @@ Anybody who is over 18 and a current registered student, or who has graduated af
 ## Does DurHack cost to attend?
 DurHack is completely free to attend, and could not run without the generosity of our sponsors. We provide the space, WiFi, meals, snacks, and free swag. 
 ## When will tickets be released?
-Tickets have now sold out! [Join our waiting list](https://ducompsoc.typeform.com/to/EdTnik) to be the first to hear if more tickets become available.
+Tickets have now sold out! [Join our waiting list](https://ducompsoc.typeform.com/to/EdTnik?waitinglist=Yes) to be the first to hear if more tickets become available.
 ## Do I need to be able to code to attend DurHack?
 The most important thing when attending a hackathon is your enthusiasm for technology. DurHack is passionate about being very welcoming and beginner-friendly, and you'll learn loads at the event!  
 If you want to learn to code but don't know where to start, you should definitely [read this blogpost](https://medium.com/on-coding/you-can-already-code-you-just-dont-know-it-yet-862044601a5a).
