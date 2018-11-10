@@ -70,7 +70,7 @@ app.get('/sponsors', (request, response) => {
 })
 
 app.get('/codeofconduct', (request, response) => {
-  response.redirect('https://static.mlh.io/docs/mlh-code-of-conduct.pdf');
+  response.redirect('/dh18_code_of_conduct.pdf');
 })
 
 
