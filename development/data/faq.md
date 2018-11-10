@@ -29,7 +29,7 @@ You'll have 24 hours to create your project. It's important to take regular brea
 Web apps, mobile apps, hardware, anything! Projects will be judged based on their creativity, technical accomplishments, polish and usefulness by our judges.   
 **The IP of your work remains with you, the attendees.**
 ## Do you have a code of conduct?
-Everybody at DurHack 2018 will be expected to abide by the [MLH code of conduct](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).  
+Everybody at DurHack 2018 will be expected to abide by the [MLH code of conduct](/codeofconduct).  
 TL;DR: be respectful of each other.
 ## Where is DurHack taking place?
 The main event will be taking place in the Department of Earth Sciences, Durham University, whereas meals will be served in the Calman Learning Centre. The buildings will be clearly sign-posted.  
