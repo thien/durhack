@@ -73,11 +73,6 @@ app.get('/codeofconduct', (request, response) => {
   response.redirect('/dh18_code_of_conduct.pdf');
 })
 
-app.get('/joinslack', (request, response) => {
-  response.redirect('https://join.slack.com/t/durhack2018/shared_invite/enQtNDc2ODQ2NTk4NTE2LWFhN2Y1NjA5ZjNiMGZjOWJhNjk5MTJmNTRjNjQyMmY0MGJkMzFlY2Q1NGU4MWVjNGQ3YTZjY2I4MDUzZjJlMWE');
-})
-
-
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (request, response) => {
   response.status(404).sendFile(__dirname + '/public/preview/404.html');
