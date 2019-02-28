@@ -78,7 +78,7 @@ app.get('/sponsorsurvey', (request, response) => {
 })
 
 app.get('/jointheteam', (request, response) => {
-    response.redirect('https://ducompsoc.typeform.com/to/c8RQDy');
+    response.redirect('/');
 })
 
 //The 404 Route (ALWAYS Keep this as the last route)
