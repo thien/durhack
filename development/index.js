@@ -43,7 +43,7 @@ if (showTeaser) {
   app.use("/", express.static(__dirname + '/public/teaser'));
 } else if (showSplash) {
   // show the splash page until ready.
-  app.use("/", express.static(__dirname + '/public/preview'));
+  app.use("/", express.static(__dirname + '/public/main'));
 } else {
   // display our WIP website.
   app.get('/', (request, response) => {
@@ -83,7 +83,7 @@ app.get('/jointheteam', (request, response) => {
 
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (request, response) => {
-  response.status(404).sendFile(__dirname + '/public/preview/404.html');
+  response.status(404).sendFile(__dirname + '/public/main/404.html');
 })
 
 app.listen(port, (err) => {
