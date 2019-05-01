@@ -3,3 +3,4 @@ development/node_modules/*
 development/public/preview/img/sponsors/test/*
 .idea/
 *.html___jb_old___
+src/node_modules/
