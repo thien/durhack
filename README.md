@@ -9,8 +9,8 @@ These are website assets for the DurHack hackathon (the third one as of writeup 
 Hopefully, it should be as trivial as cloning the repo, `cd`ing into the repository, and slapping the following commands into the terminal (assuming `node.js` is installed):
 
 ```
-npm install
-node index.js
+cd src/
+npm start
 ```
 
 ## deployment

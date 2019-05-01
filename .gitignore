@@ -1,6 +1,6 @@
-development/node_modules/*
 .DS_Store
-development/public/preview/img/sponsors/test/*
+src/public/img/sponsors/test/*
 .idea/
 *.html___jb_old___
 src/node_modules/
+src/public/dist/
