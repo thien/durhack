@@ -3,11 +3,15 @@
 */
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500');
 
+// Vendor styles
 @import "../vendor/styles/auto-complete.css";
 @import "../vendor/styles/spectre.min.css";
 @import "../vendor/styles/spectre-exp.min.css";
 @import "../vendor/styles/spectre-icons.min.css";
 @import "../../node_modules/typer-js/typer.css";
+
+// Own styles
+@import "mlh-trust-badge";
 
 @font-face {
     font-family: 'DIN';
