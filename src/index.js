@@ -33,58 +33,42 @@ fs.readFile(faqPath, function (err, data) {
   }
 });
 
-// if this is on, redirect the user to the teaser page.
-// they shouldn't be able to see anything else.
-const showTeaser = false;
-const showSplash = true;
-
-if (showTeaser) {
-  // show the teaser page until ready.
-  app.use("/", express.static(__dirname + '/public/teaser'));
-} else if (showSplash) {
-  // show the splash page until ready.
-  app.use("/", express.static(__dirname + '/public/main'));
-} else {
-  // display our WIP website.
-  app.get('/', (request, response) => {
-    response.send('Hello from Express!')
-  })
-}
+app.use("/", express.static(__dirname + '/public/'));
 
 // faq json
 app.get('/faq', (request, response) => {
   response.setHeader('Content-Type', 'application/json');
   response.send(faq)
-})
+});
 
 // team json
 app.get('/team', (request, response) => {
   response.setHeader('Content-Type', 'application/json');
   response.send(team)
-})
+});
 
 // sponsor json
 app.get('/sponsors', (request, response) => {
   response.setHeader('Content-Type', 'application/json');
   response.send(sponsors)
-})
+});
 
 app.get('/codeofconduct', (request, response) => {
   response.redirect('/dh18_code_of_conduct.pdf');
-})
+});
 
 app.get('/sponsorsurvey', (request, response) => {
   response.redirect('https://ducompsoc.typeform.com/to/wKF4ij');
-})
+});
 
 app.get('/jointheteam', (request, response) => {
     response.redirect('/');
-})
+});
 
 //The 404 Route (ALWAYS Keep this as the last route)
 app.get('*', (request, response) => {
-  response.status(404).sendFile(__dirname + '/public/main/404.html');
-})
+  response.status(404).sendFile(__dirname + '/public/404.html');
+});
 
 app.listen(port, (err) => {
   if (err) {
@@ -93,4 +77,4 @@ app.listen(port, (err) => {
   }
 
   console.log(`server is listening on ${port}`)
-})
+});
