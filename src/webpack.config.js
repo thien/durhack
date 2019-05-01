@@ -45,8 +45,8 @@ module.exports = (env, argv) => {
             files: {
                 "vendor.js": [
                     path.resolve(__dirname, './assets/vendor/js/auto-complete.js'),
-                    path.resolve(__dirname, './assets/vendor/js/particles.min.js'),
-                    path.resolve(__dirname, './assets/vendor/js/typer.js')
+                    path.resolve(__dirname, './node_modules/particles.js/particles.js'),
+                    path.resolve(__dirname, './node_modules/typer-js/typer.min.js')
                 ]
             }
         })
