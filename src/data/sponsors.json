@@ -1,71 +1,15 @@
 {
     "sponsors": {
-        "palatinate" : [
-            {
-                "name": "Durham County Council",
-                "image": "img/sponsors/dcc.svg",
-                "url" : "https://www.durham.gov.uk/"
-            }
-        ],
-        "gold" : [
-            {
-                "name": "TPP",
-                "image": "img/sponsors/tpp.png",
-                "url" : "https://www.tpp-uk.com"
-            },
-            {
-                "name": "Waterstons",
-                "image": "img/sponsors/waterstons.svg",
-                "url" : "https://www.waterstons.com/careers"
-            },
-            {
-                "name": "GitHub",
-                "image": "img/sponsors/github.png",
-                "url": "https://education.github.com/"
-            }
-        ],
-        "silver" : [
-            {
-                "name": "Bede Gaming",
-                "image": "img/sponsors/bede.png",
-                "url" : "https://bedegaming.com"
-            }
-        ],
         "partners": [
             {
-                "name": "Durham Computing Society",
+                "name": "Durham University Computing Society",
                 "image": "img/sponsors/compsoc_coloured.png",
                 "url" : "https://www.compsoc.tech"
-            },
-            {
-                "name": "MLH",
-                "image": "img/sponsors/mlh.png",
-                "url" : "https://mlh.io"
             },
             {
                 "name": "Durham University",
                 "image": "img/sponsors/du.svg",
                 "url" : "https://www.dur.ac.uk/computer.science/"
-            },
-            {
-                "name": "Entrepreneurs Durham",
-                "image": "img/sponsors/ed.svg",
-                "url" : "http://www.entrepreneursdurham.co.uk"
-            },
-            {
-                "name": "Sticker Mule",
-                "image": "img/sponsors/sticker-mule.svg",
-                "url" : "http://hackp.ac/mlh-stickermule-hackathons"
-            },
-            {
-                "name": "Bloomberg",
-                "image": "img/sponsors/bloomberg.svg",
-                "url" : "https://www.bloomberg.com/careers/"
-            },
-            {
-                "name": "Durham Student Union",
-                "image": "img/sponsors/dsu.png",
-                "url" : "https://www.durhamsu.com"
             }
         ]
     }
