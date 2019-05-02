@@ -1,71 +1,80 @@
-[{
+[
+    {
         "name": "Robbie",
         "role": "Lead Organiser",
         "email": "robbie.jw@durhack.com",
-        "mugshot" : "img/team/rob.jpg",
-        "fact" : "Eats babies for breakfast."
-    },
-    {
-        "name": "Karl",
-        "role": "Head of Logistics",
-        "email": "karl.s@durhack.com",
-        "mugshot" : "img/team/karl.jpg",
-        "fact" : "Eats babies for breakfast."
-    },
-    {
-        "name": "Mitchel",
-        "role": "Head of Hacker Experience",
-        "email": "mitchel.s@durhack.com",
-        "mugshot" : "img/team/mitchel.jpg",
-        "fact" : "Eats babies for breakfast."
-    },
-    {
-        "name": "Jessica",
-        "role": "Treasurer",
-        "email": "jessica.n@durhack.com",
-        "mugshot" : "img/team/jess.png",
-        "fact" : "Eats babies for breakfast."
-    },
-    {
-        "name": "Kat",
-        "role": "Design and Marketing",
-        "email": "kat.s@durhack.com",
-        "mugshot" : "img/team/kat.png",
-        "fact" : "Eats babies for breakfast."
-    },
-    {
-        "name": "Thien",
-        "role": "Web Engineer",
-        "email": "hello@durhack.com",
-        "mugshot" : "img/team/thien.jpg",
-        "fact" : "Eats babies for breakfast."
-    },
-    {
-        "name": "Justin Knight",
-        "role": "Sponsorship Assistant",
-        "email": "justin.k@durhack.com",
-        "mugshot" : "img/team/justin.png",
-        "fact" : "Eats babies for breakfast."
+        "mugshot" : "img/team/robbie.jpg"
     },
     {
         "name": "Alex",
-        "role": "Catering Logistics Assistant",
+        "role": "Secretary & Catering Manager",
         "email": "alex.k@durhack.com",
-        "mugshot" : "img/team/alex.png",
-        "fact" : "Eats babies for breakfast."
+        "mugshot" : "img/team/alex.png"
     },
     {
         "name": "Christos",
-        "role": "General Logistics Assistant",
+        "role": "Head of Logistics",
         "email": "christos.cm@durhack.com",
-        "mugshot" : "img/team/christos.jpg",
-        "fact" : "Eats babies for breakfast."
+        "mugshot" : "img/team/christos.jpg"
     },
     {
-        "name": "Dmytro",
-        "role": "General Logistics Assistant",
-        "email": "dmytro.d@durhack.com",
-        "mugshot" : "img/team/dmytro.png",
-        "fact" : "Eats babies for breakfast."
+        "name": "Karl",
+        "role": "Pre-Postgraduate Adviser",
+        "email": "karl.s@durhack.com",
+        "mugshot" : "img/team/karl.jpg"
+    },
+    {
+        "name": "Lewis",
+        "role": "Treasurer",
+        "email": "lewis.s@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Mahek",
+        "role": "Head of Hacker Experience",
+        "email": "mahek.v@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Zeynep",
+        "role": "Publicity Officer",
+        "email": "zeynep.e@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Laszlo",
+        "role": "Design Officer",
+        "email": "laszlo.k@durhack.com",
+        "mugshot" : "img/team/laszlo.jpg"
+    },
+    {
+        "name": "Kanika Mehta",
+        "role": "Sponsorship Officer",
+        "email": "kanika.m@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Peter Hessey",
+        "role": "Sponsorship Officer",
+        "email": "peter.h@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Ollie Hines",
+        "role": "Sponsorship Officer",
+        "email": "oliver.h@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Amy Hudspith",
+        "role": "Logistics Assistant",
+        "email": "amy.h@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Jamie Sim",
+        "role": "Tech Officer",
+        "email": "jamie.s@durhack.com",
+        "mugshot": "img/team/placeholder.png"
     }
 ]
