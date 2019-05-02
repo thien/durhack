@@ -318,10 +318,15 @@ textarea::-webkit-input-placeholder {
 .timeline {
     .tile-subtitle {
         font-weight: bold;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.8rem;
     }
 
     .tile-title {
         margin: 0 0 0 0.5rem;
+
+        .bullet-time {
+            font-family: 'Animosa Bold', monospace;
+            font-size: 0.85rem;
+        }
     }
 }
