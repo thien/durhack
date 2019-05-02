@@ -1,0 +1,54 @@
+// IBM Plex Sans
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500');
+
+// Alte DIN
+//noinspection CssUnknownTarget
+@font-face {
+  font-family: 'DIN';
+  src: url('/fonts/din1451alt.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/din1451alt.woff') format('woff'),
+    /* Pretty Modern Browsers */
+  url('/fonts/din1451alt.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+// Alte DIN Bold
+//noinspection CssUnknownTarget
+@font-face {
+  font-family: 'DIN Bold';
+  src: url('/fonts/din1451alt_b.ttf');
+  /* IE9 Compat Modes */
+  src: url('/fonts/din1451alt_b.woff') format('woff'),
+    /* Pretty Modern Browsers */
+  url('/fonts/din1451alt_b.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+//noinspection CssUnknownTarget
+@font-face {
+  font-family: 'Animosa';
+  src: url('/fonts/Animosa-ExtraLight.otf');
+  font-weight: normal;
+}
+
+//noinspection CssUnknownTarget
+@font-face {
+  font-family: 'Animosa Bold';
+  src: url('/fonts/Animosa-ExtraBold.otf');
+  font-weight: normal;
+}
+
+//noinspection CssUnknownTarget
+@font-face {
+  font-family: 'Deciso Bold';
+  src: url('/fonts/Deciso-Bold.otf');
+}
+
+//noinspection CssUnknownTarget
+@font-face {
+  font-family: 'Deciso Light Italic';
+  src: url('/fonts/Deciso-LightItalic.otf');
+}

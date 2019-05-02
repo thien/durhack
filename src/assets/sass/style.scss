@@ -1,8 +1,3 @@
-/*
-68 74 74 70 3a 2f 2f 69 2e 69 6d 67 75 72 2e 63 6f 6d 2f 79 53 66 44 75 37 63 2e 6a 70 67 
-*/
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,500');
-
 // Vendor styles
 @import "../vendor/styles/auto-complete.css";
 @import "../vendor/styles/spectre.min.css";
@@ -11,37 +6,15 @@
 @import "../../node_modules/typer-js/typer.css";
 
 // Own styles
+@import "fonts";
 @import "mlh-trust-badge";
 
-//noinspection CssUnknownTarget
-@font-face {
-    font-family: 'DIN';
-    src: url('/fonts/din1451alt.ttf');
-    /* IE9 Compat Modes */
-    src: url('/fonts/din1451alt.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('/fonts/din1451alt.ttf') format('truetype');
-    /* Safari, Android, iOS */
-    font-weight: normal;
-}
-
-//noinspection CssUnknownTarget
-@font-face {
-    font-family: 'DIN Bold';
-    src: url('/fonts/din1451alt_b.ttf');
-    /* IE9 Compat Modes */
-    src: url('/fonts/din1451alt_b.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('/fonts/din1451alt_b.ttf') format('truetype');
-    /* Safari, Android, iOS */
-    font-weight: normal;
-}
-
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Animosa', sans-serif;
     color: #f8e8ff;
     background-color: #1a151b;
     font-weight: 400;
+    font-size: 0.85rem;
 }
 
 .splash_logo {
@@ -71,13 +44,12 @@ body {
     padding-right: 10%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'DIN', 'IBM Plex Sans', sans-serif;
+h1, h2, h3, h4 {
+    font-family: 'Deciso Bold', sans-serif;
+}
+
+h5, h6 {
+    font-family: 'Deciso Light Italic', sans-serif;
 }
 
 .splash_container {
