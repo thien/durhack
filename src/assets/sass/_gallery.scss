@@ -1,6 +1,6 @@
 #gallery {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(2, auto);
   width: 100%;
 
   > img {
@@ -15,5 +15,11 @@
     > img:not(:hover) {
       filter: brightness(0.75);
     }
+  }
+}
+
+@media screen and (max-width: 927px) {
+  #gallery {
+    grid-template-columns: repeat(1, auto);
   }
 }
