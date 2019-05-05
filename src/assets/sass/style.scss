@@ -94,12 +94,22 @@ em {
     .hashtags {
         font-family: 'Deciso Bold', sans-serif;
         color: #c5e3b3;
-        font-size: 2rem;
+        font-size: 1.2rem;
         font-style: italic;
+
+        .hashtag {
+            display: inline;
+        }
     }
 }
 
-/* 
+@media screen and (max-width: 1030px) {
+  .fp-section .hashtags .hashtag {
+    display: block;
+  }
+}
+
+/*
 .coloured_container:nth-child(even){
     background-color: #3d253721;
 }
@@ -117,6 +127,7 @@ a:hover {
 
 h2 {
     color: #92ced4;
+    font-size: 1.8rem;
 }
 
 .xoxo {
