@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#dab8e9">
+    <meta name="msapplication-TileColor" content="#434144">
+    <meta name="theme-color" content="#434144">
+    <meta name="google-site-verification" content="0mT7JIQImDNHA2kqMmkshPR-gtx9FiITnaWWPoDOWb8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--suppress HtmlUnknownTarget -->
+    <link rel="stylesheet" href="/dist/app.css" />
+    <title>DurHack</title>
+
+    <meta property="og:title" content="DurHack 2019">
+    <meta property="og:description" content="The official 4th generation hackathon at Durham">
+    <meta property="og:image" content="img/meta/logo.png">
+    <meta property="og:url" content="https://durhack.com">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <script>
+        // load data prior to rendering the page.
+        var faqJSONs;
+        fetch("/faq")
+        .then(response => response.json())
+        .then(json => faqJSONs = json);
+    </script>
+
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="container splash_container">
+        <div class="columns">
+            <div class="column col-7 col-xs-12">
+            </div>
+            <div id="splash-head" class="column col-5 col-xs-12 header">
+                <img src="img/logo19.svg" class="splash_logo">
+                <h5 class="headline">Coming November 2019</h5>
+                <h5 class="headline_lower">Durham University, UK</h5>
+                <a href="https://ducompsoc.typeform.com/to/eXzKfq" target="_blank">
+                    <button class="btn btn-primary input-group-btn front-register">Pre-Register</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form">
+                    <h2 class="fp-header">DurHack 2019 is coming!</h2>
+                    <p>This year, join <strong>150</strong> hackers to create, innovate and push technology to new limits!</p>
+                    <p class="hashtags">
+                        <span class="hashtag">#educate</span>
+                        <span class="hashtag">#create</span>
+                        <span class="hashtag">#innovate</span>
+                    </p>
+                    <p>We're still <strong>ironing out the details</strong> right now. Pre-register to be the first to hear when tickets are released!</p>
+                    <a href="https://ducompsoc.typeform.com/to/eXzKfq">
+                        <button class="btn btn-primary input-group-btn front-register" style="margin:0 0 1rem 0;">Pre-Register for DurHack 2019</button>
+                    </a>
+                    <p>For general enquiries, email <a href="mailto:hello@durhack.com">hello@durhack.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form highlight_box">
+                    <h2 class="fp-header">DurHack 2018</h2>
+                    <p><small>DurHack 2018 took place on 17<sup>th</sup>–18<sup>th</sup> November 2018.</small></p>
+                    <p>Last year, <strong>150</strong> of the best and brightest hackers united for a weekend marathon of invention, learning, collaboration and coding.</p>
+                    <p>Congratulations to all our participants and we hope to see you at DurHack again!</p>
+                    <p>Project submissions can be viewed at the <a href="https://durhack2018.devpost.com/submissions/">DurHack 2018 Devpost</a>, and photos can be viewed on our <a href="http://photos18.durhack.com">Google Drive folder!</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TODO: Add images -->
+    <!-- <div class="container coloured_container">
+
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 sponsors">
+                    <div id="gallery">
+                        <img src="img/gallery/gallery-placeholder.png" alt="Placeholder gallery image" />
+                        <img src="img/gallery/gallery-placeholder.png" alt="Placeholder gallery image" />
+                        <img src="img/gallery/gallery-placeholder.png" alt="Placeholder gallery image" />
+                        <img src="img/gallery/gallery-placeholder.png" alt="Placeholder gallery image" />
+                        <img src="img/gallery/gallery-placeholder.png" alt="Placeholder gallery image" />
+                        <img src="img/gallery/gallery-placeholder.png" alt="Placeholder gallery image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- TODO: Add Google Maps here -->
+<!--    <div class="container coloured_container">-->
+<!--        <div class="fp-section">-->
+<!--            <div class="columns">-->
+<!--                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form">-->
+<!--                    <h2 class="fp-header">Where is it?</h2>-->
+<!--                    <p>DurHack 2019 takes place at Durham University.</p>-->
+<!--                    <p>Check back soon once we announce the venue!</p>-->
+<!--                    <div id="mapContainer"></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <h2 class="fp-header">Timeline</h2>
+            <div class="column col-5 col-md-6 col-md-7 col-xs-12">
+                <div class="timeline">
+                    <div class="timeline-item" id="timeline_feb">
+                        <div class="timeline-left"><a class="timeline-icon tooltip" href="#timeline-example-1"
+                                data-tooltip="February 2019"></a></div>
+                        <div class="timeline-content">
+                            <div class="tile">
+                                <div class="tile-content">
+                                    <p class="tile-subtitle">February 2019</p>
+                                    <p class="tile-title"><em class="bullet-time">Planning begins</em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="timeline_jun">
+                        <div class="timeline-left"><a class="timeline-icon tooltip" data-tooltip="June 2019"></a></div>
+                        <div class="timeline-content">
+                            <div class="tile">
+                                <div class="tile-content">
+                                    <p class="tile-subtitle">June 2019</p>
+                                    <p class="tile-title"><em class="bullet-time">Run build-up workshops with <a href="https://www.compsoc.tech/events" target="_blank">CompSoc</a></em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="timeline_sep">
+                        <div class="timeline-left"><a class="timeline-icon tooltip" data-tooltip="September 2019"></a></div>
+                        <div class="timeline-content">
+                            <div class="tile">
+                                <div class="tile-content">
+                                    <p class="tile-subtitle">September 2019</p>
+                                    <p class="tile-title"><em class="bullet-time">Release tickets</em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="timeline_oct">
+                        <div class="timeline-left"><a class="timeline-icon tooltip" data-tooltip="October 2019"></a></div>
+                        <div class="timeline-content">
+                            <div class="tile">
+                                <div class="tile-content">
+                                    <p class="tile-subtitle">October 2019</p>
+                                    <p class="tile-title"><em class="bullet-time">Run more build-up workshops with <a href="https://www.compsoc.tech/events" target="_blank">CompSoc</a></em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item" id="timeline_nov">
+                        <div class="timeline-left"><a class="timeline-icon tooltip" data-tooltip="September 2019"></a></div>
+                        <div class="timeline-content">
+                            <div class="tile">
+                                <div class="tile-content">
+                                    <p class="tile-subtitle">November 2019</p>
+                                    <p class="tile-title"><em class="bullet-time">DurHack!</em></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 sponsors">
+                    <h2 class="fp-header">FAQ</h2>
+                    <div class="form-group">
+                        <input class="form-input" type="text" id="faqInput" placeholder="Type in your question here">
+                    </div>
+                    <div class="form-group">
+                        <div id="faqResponse" style="display:none;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container coloured_container">
+
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 sponsors">
+                    <h2 class="fp-header">Sponsors</h2>
+
+                    <div class="sponsor_container" id="sponsor-partner"></div>
+                    <div class="sponsor_container" id="sponsor-base"></div>
+
+                    <p>Thanks in advance to all our sponsors for making DurHack 2019 possible!</p>
+
+                    <p> <b>Interested in sponsoring DurHack 2019?</b> Send us an email at <a href="mailto:sponsor@durhack.com">sponsor@durhack.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form">
+                    <p>DurHack 2019 enforces the <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container coloured_container">
+
+        <div class="fp-section">
+            <div class="columns">
+
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12 request_form">
+                    <div class="xoxo">
+                        With <img id="heart" src="img/helpers/heart.svg"> from the team.
+                    </div>
+                    <div id="teambox">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- add mlh logo. -->
+    <a id="mlh-trust-badge"
+       target="_blank"
+       href="https://mlh.io/seasons/eu-2020/events?utm_source=eu-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white"
+    >
+        <img
+            alt="Major League Hacking 2020 Hackathon Season"
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-white.svg"
+        />
+    </a>
+
+    <div class="container legal_ting">
+
+        <div class="fp-section">
+            <div class="columns">
+                <div class="column col-5 col-md-6 col-md-7 col-xs-12">
+                    <p>DurHack is an event hosted by Durham University Computing Society (<a href="https://compsoc.tech"
+                            target="_blank">compsoc.tech</a>),
+                        which is a student society affiliated with Durham Students' Union (<a href="https://durhamsu.com"
+                            target="_blank">durhamsu.com</a>).
+                        Durham Students' Union is registered in England as a company limited by guarantee (07689815)
+                        and a charity
+                        (1145400), with VAT number 119733690 and registered office Dunelm House, New Elvet, Durham DH1
+                        3AN.</p>
+
+                    <p class="copyright">This work is <a href="https://github.com/robzwolf/durhack-website">open source</a>, forked from <a href="https://github.com/thien/durhack">durhack by thien</a>.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--suppress HtmlUnknownTarget -->
+    <script src="/dist/vendor.js"></script>
+    <!--suppress HtmlUnknownTarget -->
+    <script src="/dist/app.js"></script>
+<!--    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyD70GNb2FLOz3cVO-LpF0Jjk8STZgGZKX0"></script>-->
+</body>
+
+<!--<script>-->
+<!--    function init_map() {-->
+<!--        var myOptions = {-->
+<!--            zoom: 16,-->
+<!--            center: new google.maps.LatLng(54.7674341, -1.5718217),-->
+<!--            mapTypeId: google.maps.MapTypeId.ROADMAP-->
+<!--        };-->
+<!--        map = new google.maps.Map(document.getElementById("mapContainer"), myOptions);-->
+<!--        marker = new google.maps.Marker({-->
+<!--            map: map,-->
+<!--            position: new google.maps.LatLng(54.7674341, -1.5718217)-->
+<!--        });-->
+<!--    }-->
+<!--    google.maps.event.addDomListener(window, 'load', init_map);-->
+<!--</script>-->
+
+</html>

@@ -1,0 +1,21 @@
+{
+    "sponsors": {
+        "partners": [
+            {
+                "name": "Durham University Computing Society",
+                "image": "img/sponsors/compsoc_coloured.png",
+                "url" : "https://www.compsoc.tech"
+            },
+            {
+                "name": "MLH",
+                "image": "img/sponsors/mlh.png",
+                "url" : "https://mlh.io"
+            },
+            {
+                "name": "Durham University",
+                "image": "img/sponsors/du.svg",
+                "url" : "https://www.dur.ac.uk/computer.science/"
+            }
+        ]
+    }
+}

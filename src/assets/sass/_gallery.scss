@@ -1,0 +1,25 @@
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 0.5rem;
+  width: 100%;
+
+  > img {
+    width: 100%;
+    transition: 0.15s;
+    cursor: pointer;
+  }
+
+  // When user hovers over an image, darken every image except the hovered one
+  &:hover {
+    > img:not(:hover) {
+      filter: brightness(0.75);
+    }
+  }
+}
+
+@media screen and (max-width: 927px) {
+  #gallery {
+    grid-template-columns: repeat(1, auto);
+  }
+}

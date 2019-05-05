@@ -1,0 +1,80 @@
+[
+    {
+        "name": "Robbie",
+        "role": "Lead Organiser",
+        "email": "robbie.jw@durhack.com",
+        "mugshot" : "img/team/robbie.jpg"
+    },
+    {
+        "name": "Alex",
+        "role": "Secretary & Catering Manager",
+        "email": "alex.k@durhack.com",
+        "mugshot" : "img/team/alex.jpg"
+    },
+    {
+        "name": "Christos",
+        "role": "Head of Logistics",
+        "email": "christos.cm@durhack.com",
+        "mugshot" : "img/team/christos.jpg"
+    },
+    {
+        "name": "Karl",
+        "role": "Pre-Postgraduate Adviser",
+        "email": "karl.s@durhack.com",
+        "mugshot" : "img/team/karl.jpg"
+    },
+    {
+        "name": "Lewis",
+        "role": "Treasurer",
+        "email": "lewis.s@durhack.com",
+        "mugshot": "img/team/lewis.jpg"
+    },
+    {
+        "name": "Mahek",
+        "role": "Head of Hacker Experience",
+        "email": "mahek.v@durhack.com",
+        "mugshot": "img/team/placeholder.png"
+    },
+    {
+        "name": "Zeynep",
+        "role": "Publicity Officer",
+        "email": "zeynep.e@durhack.com",
+        "mugshot": "img/team/zeynep.jpg"
+    },
+    {
+        "name": "Laszlo",
+        "role": "Design Officer",
+        "email": "laszlo.k@durhack.com",
+        "mugshot" : "img/team/laszlo.jpg"
+    },
+    {
+        "name": "Kanika Mehta",
+        "role": "Sponsorship Officer",
+        "email": "kanika.m@durhack.com",
+        "mugshot": "img/team/kanika.jpg"
+    },
+    {
+        "name": "Peter Hessey",
+        "role": "Sponsorship Officer",
+        "email": "peter.h@durhack.com",
+        "mugshot": "img/team/peter.jpg"
+    },
+    {
+        "name": "Ollie Hines",
+        "role": "Sponsorship Officer",
+        "email": "oliver.h@durhack.com",
+        "mugshot": "img/team/ollie.jpg"
+    },
+    {
+        "name": "Amy Hudspith",
+        "role": "Logistics Assistant",
+        "email": "amy.h@durhack.com",
+        "mugshot": "img/team/amy.jpg"
+    },
+    {
+        "name": "Jamie Sim",
+        "role": "Tech Officer",
+        "email": "jamie.s@durhack.com",
+        "mugshot": "img/team/jamie.jpg"
+    }
+]
