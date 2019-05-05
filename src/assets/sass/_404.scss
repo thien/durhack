@@ -1,0 +1,23 @@
+/* 404 Classes */
+.page404 {
+  color: #fff;
+  background-color: #c42749;
+  padding-top: 3em;
+}
+
+.page404 a {
+  font-weight: bold;
+  color: #fcc7c7;
+}
+
+.err404:nth-child(even) {
+  color: #c5e3b3;
+}
+
+.err404:nth-child(odd) {
+  color: #92ced4;
+}
+
+.err404.final {
+  margin-top: 2em;
+}
