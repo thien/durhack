@@ -39,7 +39,7 @@
         "name": "Zeynep",
         "role": "Publicity Officer",
         "email": "zeynep.e@durhack.com",
-        "mugshot": "img/team/placeholder.png"
+        "mugshot": "img/team/zeynep.jpg"
     },
     {
         "name": "Laszlo",
@@ -51,19 +51,19 @@
         "name": "Kanika Mehta",
         "role": "Sponsorship Officer",
         "email": "kanika.m@durhack.com",
-        "mugshot": "img/team/placeholder.png"
+        "mugshot": "img/team/kanika.jpg"
     },
     {
         "name": "Peter Hessey",
         "role": "Sponsorship Officer",
         "email": "peter.h@durhack.com",
-        "mugshot": "img/team/placeholder.png"
+        "mugshot": "img/team/peter.jpg"
     },
     {
         "name": "Ollie Hines",
         "role": "Sponsorship Officer",
         "email": "oliver.h@durhack.com",
-        "mugshot": "img/team/placeholder.png"
+        "mugshot": "img/team/ollie.jpg"
     },
     {
         "name": "Amy Hudspith",
@@ -75,6 +75,6 @@
         "name": "Jamie Sim",
         "role": "Tech Officer",
         "email": "jamie.s@durhack.com",
-        "mugshot": "img/team/placeholder.png"
+        "mugshot": "img/team/jamie.jpg"
     }
 ]
